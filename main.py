@@ -18,7 +18,7 @@ guildTeam2Count = {}
 guildDupeStn = {}
 
 PREFIX = '!'
-TOKEN = 'MTMxNzgwNDc4NDMxNjg0MjAwNA.GfiFYw.GLnGmSDjVhbbZnFAAVf4lSvschorymBT7eQObE'
+TOKEN = ''
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -287,6 +287,6 @@ try:
     intents = discord.Intents.default()
     intents.message_content = True
     
-    bot.run(MTMxNzgwNDc4NDMxNjg0MjAwNA.GfiFYw.GLnGmSDjVhbbZnFAAVf4lSvschorymBT7eQObE)
+    bot.run(token)
 except discord.errors.LoginFailure as e:
     print("Improper token has been passed.")
