@@ -287,6 +287,6 @@ try:
     intents = discord.Intents.default()
     intents.message_content = True
     
-    bot.run(TOKEN)
+    bot.run(MTMxNzgwNDc4NDMxNjg0MjAwNA.GfiFYw.GLnGmSDjVhbbZnFAAVf4lSvschorymBT7eQObE)
 except discord.errors.LoginFailure as e:
     print("Improper token has been passed.")
