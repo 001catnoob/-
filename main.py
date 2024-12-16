@@ -2,6 +2,7 @@ from distutils.sysconfig import PREFIX
 import discord
 from discord.ext import commands
 from discord import Option
+import os
 import random
 
 staffs = [421964224118652939]
