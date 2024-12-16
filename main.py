@@ -18,7 +18,7 @@ guildTeam2Count = {}
 guildDupeStn = {}
 
 PREFIX = '!'
-TOKEN = ''
+TOKEN = 'MTMxNzgwNDc4NDMxNjg0MjAwNA.GfiFYw.GLnGmSDjVhbbZnFAAVf4lSvschorymBT7eQObE'
 
 intents = discord.Intents.default()
 intents.message_content = True
